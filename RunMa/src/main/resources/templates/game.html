@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        h3 {white-space:pre}
+
+    </style>
+</head>
+<body>
+当前观🐴者:
+<p th:text="${sum}"></p>
+<br/>
+<h3 th:text="${maMap.get(1).getView()}"></h3>
+<h3 th:text="${maMap.get(2).getView()}"></h3>
+<h3 th:text="${maMap.get(3).getView()}"></h3>
+<h3 th:text="${maMap.get(4).getView()}"></h3>
+
+</body>
+</html>
